@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+   
+}
+.flexbox-two{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+}
+.flexbox-element-gorizontal{
+    background: #1E2E66;
+    width: 100%;
+    height: 400px;
+}
+.flexbox-element-small-gorizontal{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 60px;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    height: 500px;
+    background: #cac8c8;
+    flex-wrap: wrap;
+    
+}
+.main-content-2{
+    background: white;
+    width: 75%;
+}
+.expressive{
+    margin-top: 100px;
+    text-align: center;
+    
+    color: white;
+    font-size: 72px;
+    letter-spacing: 1.5px;
+
+}
+.p-expressive{
+    font-size: 16px;
+    margin-top: 37px;
+    letter-spacing: 0;
+    word-spacing: 2.5px;
+
+}
+.div-link{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    gap: 45px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+
+
+}
+.a-link{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.about-me{
+    float: left;
+    padding: 30px;
+    width: 100%;
+    height: 80%;
+   
+}
+h1{
+    font-family: 'Fira Sans', sans-serif;
+}
+p{
+    font-family: 'Fira Sans', sans-serif;
+}
+.h1-me{
+    font-size: 32px;
+
+}
+img{
+    
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    text-align: center;
+    float: right;
+    border-radius: 40px;
+}
+
+.img-transform{
+    width: 40%;
+    height: 50%;
+    float: right;
+    padding: 7px;
+}
+.story-description{
+    margin: 5px 0 5px 0;
+}
+
+
